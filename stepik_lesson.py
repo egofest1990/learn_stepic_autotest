@@ -23,3 +23,5 @@ button = browser.find_element_by_id("solve")
 browser.execute_script("window.scrollBy(0, 150);")
 browser.find_element_by_id("answer").send_keys(y)
 button.click()
+
+browser.quit()
